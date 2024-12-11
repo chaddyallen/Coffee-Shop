@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Product Showcase</title>
+    <style>
+        
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    
+    header {
+        text-align: center;
+        background-color:  #6f4e37;
+        color: white;
+        padding: 1rem 0;
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+    
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .product-card {
+        background:  #d6986c;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    .product-card h2 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+    
+    footer {
+        text-align: center;
+        background-color:   #6f4e37;
+        color: white;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="container"></div>
+    <header>
+        <h1>Our Featured Products</h1>
+    </header>
+    <main>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://shopsuki.ph/cdn/shop/files/8996001414309_800x.jpg?v=1711438877" alt="Product 1">
+                <h2>KOPIKO BLANCA</h2>
+                <p>High-quality product for your everyday needs.</p>
+                <p><strong>100 php.</strong></p>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE310_xXDl8nRAuC68_416heVqyqQrI_UNpQ&s" alt="Product 2">
+                <h2>NESCAFE CREAMY WHITE</h2>
+                <p>Experience the best with this premium item.</p>
+                <p><strong>100 php</strong></p>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUoAbQFp6xyRjbcB4umIaTu_ninGGFFJ6Plw&s" alt="Product 3">
+                <h2>GREAT TASTE TOFFEE HAZELNUT</h2>
+                <p>A perfect blend of style and functionality.</p>
+                <p><strong>100 php</strong></p>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJYRXb2OgPLD4w-Y8Zcre3Kd_5IOAMjY0KAQ&s" alt="Product 4">
+                <h2>NESCAFE CLASSIC</h2>
+                <p>Top-rated product loved by our customers.</p>
+                <p><strong>100 hph</strong></p>
+            </div>
+            <div class="product-card">
+                <img src="https://shopsuki.ph/cdn/shop/files/8996001410226_1024x.jpg?v=1711438796" alt="Product 5">
+                <h2>KOPIKO BLACK</h2>
+                <p>Designed for ultimate performance.</p>
+                <p><strong>100 php</strong></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p> G2 COFFEE'S</p>
+    </footer>
+</body>
+</html>
